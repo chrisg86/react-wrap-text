@@ -15,7 +15,18 @@
     "build": "tsup",
     "preview": "vite preview"
   },
-  "keywords": ["react"],
+  "keywords": [
+    "react",
+    "highlight",
+    "text-replace",
+    "react-component",
+    "text-formatter",
+    "jsx",
+    "inline-markup",
+    "string-parser",
+    "text-highlighter",
+    "react-utils"
+  ],
   "author": "",
   "license": "MIT",
   "packageManager": "pnpm@10.13.1",
