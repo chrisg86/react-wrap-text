@@ -1,0 +1,35 @@
+{
+  "name": "react-wrap-text",
+  "version": "0.1.0",
+  "description": "A simple utility to wrap matching substrings in React with custom jsx components",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsup",
+    "preview": "vite preview"
+  },
+  "keywords": ["react"],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.13.1",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.5"
+  }
+}
