@@ -5,7 +5,7 @@ Perfect for inline highlighting, smart mentions, tokenized UI, or simple templat
 
 ## 🚀 Install
 ```
-npm install react-wrap-matches
+npm install react-wrap-text
 ```
 
 ## Usage
