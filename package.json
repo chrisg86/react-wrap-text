@@ -13,7 +13,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsup",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
   },
   "keywords": [
     "react",
@@ -31,13 +33,22 @@
   "license": "MIT",
   "packageManager": "pnpm@10.13.1",
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@vitejs/plugin-react": "^4.7.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "jsdom": "^26.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tsup": "^7.2.0",
     "typescript": "^5.8.3",
-    "vite": "^7.0.5"
+    "vite": "^7.0.5",
+    "vitest": "^3.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisg86/react-wrap-text"
   }
 }
