@@ -1,9 +1,6 @@
 name: Run tests
 
 on:
-  push:
-    branches:
-      - "**"
   pull_request:
     branches:
       - main
@@ -22,11 +19,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: "pnpm"
 
       - name: Install dependencies
         run: |
           corepack enable
+          corepack prepare --activate
           pnpm install
 
       - name: Run tests
